@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 
-const todoSchema = new mongoose.Schema({
+const taskSchema = new mongoose.Schema({
   title: { type: String, required: true },
   completed: { type: Boolean, default: false },
 });
 
-const TodoModel = mongoose.model("todos", todoSchema);
+const taskModel = mongoose.model("tasks", taskSchema);
 
-export default TodoModel;
+export default taskModel;

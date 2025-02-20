@@ -9,7 +9,7 @@
   "author": "KissCoder",
   "license": "ISC",
   "type": "module",
-  "description": "backend d'une todo list",
+  "description": "backend of task manager",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
