@@ -28,7 +28,7 @@ Before getting started, make sure you have the following installed:
 4. Create a .env file at the root of the project and add the following environment variables:
    ```env
    PORT = 1010
-   DATABASE_URL = mongodb://127.0.0.1:27017/todolist
+   DATABASE_URL = your-database-url-here
 
 5. Start the server:
    ```bash
