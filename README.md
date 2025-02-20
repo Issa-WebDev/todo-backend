@@ -17,21 +17,21 @@ Before getting started, make sure you have the following installed:
    ```bash
    git clone https://github.com/Issa-WebDev/todo-backend.git
 
-2. Allez dans le dossier du projet :
+2. Navigate to the project folder:
    ```bash
    cd todo-backend
 
-3. Installez les dépendances :
+3. Install dependencies :
    ```bash
    npm install
 
-4. Créez un fichier .env à la racine du projet et ajoutez-y les variables d'environnement nécessaires :
+4. Create a .env file at the root of the project and add the following environment variables:
    ```env
    PORT = 1010
    DATABASE_URL = mongodb://127.0.0.1:27017/todolist
 
-5. Démarrez le serveur :
+5. Start the server:
    ```bash
    npm run dev
 
-Le backend sera maintenant accessible sur http://localhost:1010.
+The backend will now be accessible at http://localhost:1010.
