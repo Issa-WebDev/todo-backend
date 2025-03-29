@@ -27,11 +27,11 @@ Before getting started, make sure you have the following installed:
 
 4. Create a .env file at the root of the project and add the following environment variables:
    ```env
-   PORT = 1010
+   PORT = 5000
    DATABASE_URL = your-database-url-here
 
 5. Start the server:
    ```bash
    npm run dev
 
-The backend will now be accessible at http://localhost:1010.
+The backend will now be accessible at http://localhost:5000.
